@@ -1,4 +1,4 @@
-FROM postgres:16.0
+FROM postgres:17.0
 
 # 日本語設定
 RUN localedef -f UTF-8 -i ja_JP ja_JP.UTF-8
